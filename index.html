@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trivia Game</title>
+    <!-- jQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Trivia Game!</h1>
+    <!-- Empty div we can show our game results in later with unique id -->
+    <div id="result"></div> 
+    <!--Empty Div to wrap our quiz in with unique id-->
+ <div id="game-area">
+      <!-- Button to start game/timer tied to on-click function in JS -->
+    <button id="start"> Start</button>
+    
+  
+    <!-- Empty div to display counter/countdown with unique id -->
+     <div id="counter-text"></div>
+    <!-- Empty Div that wraps all of your questions with unique id -->
+   <div id="questions-area">
+        
+    <!-- h2 tag with question inside -->
+    <h2> What is the Capital of Illinois</h2>
+
+    <input type="radio" name="q1" value = "f">Chicago</input> 
+    <input type="radio" name= "q1" value = "t">"Sringfield"</input>
+    <input type="radio" name="q1" value = "f">Champion</input>
+    <input type="radio" name = "q1" value = "f">Rockford</input>
+
+    <!-- <h2> What color is the Sky</h2> -->
+<!-- put inputs of answers bellow  -->
+
+    <h2> What is the name of the pirate in Peter Pan?</h2>
+
+    <input type="radio" name="q2" value = "f">Jack Sparrow</input>
+    <input type="radio" name="q2" vaule = "t">Captin Hook</input>
+    <input type="radio" name ="q2" value = "f">Long John Silver</input>
+    <input type="radio" name = "q2" value = "f">Bootstrap Bill Turner</input>
+
+    <h2> What color is SKy</h2>
+
+    <input type="radio" name="q3" value= "f">Blue</input>
+    <input type="radio" name="q3" value= "f">Green</input>
+    <input type="radio" name="q3" value= "t">Brown</input>
+    <input type="radio" name="q3" value= "f">Yellow</input>
+
+    <h2>He's "smarter than the average bear", but what’s the name of the most famous resident of Jellystone Park?</h2>
+
+    <input type="radio" name="q4" value= "f">Winnie the Pooh</input>
+    <input type="radio" name="q4" value= "f">Baloo</input>
+    <input type="radio" name="q4" value= "f">Yogi Bear</input>
+    <input type="radio" name="q4" value= "f">Br'er Bear</input>
+    
+    <h2>In which continentis the country of Egypt found?</h2>
+    
+    <input type="radio" name="q5" value= "f">Asia</input>
+    <input type="radio" name="q5" value= "f">South America</input>
+    <input type="radio" name="q5" value= "f">Europe</input>
+    <input type="radio" name="q5" value= "t">Africa</input>
+    
+    <!-- <h2> He’s “smarter than the average bear”, but what’s the name of the most famous resident of Jellystone Park?</h2> 
+    <h2>In which continent is the country of Egypt found?</h2> -->
+    
+    <!-- input tags for each of your answer.  they should have a type of radio, name that is the same for all questions and value of t or f then text inside -->
+ 
+
+    
+</div>
+    <!-- An empty div with a unique id to put your done button when you create it -->
+    <div id="done">
+       
+    </div>
+
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
